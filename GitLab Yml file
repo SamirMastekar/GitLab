@@ -1,0 +1,33 @@
+stages:
+- build_debug
+- build_release
+- Test
+
+build_debug:
+    before_script:
+        - set "VSCMD_START_DIR=%CD%" 
+        - call %VS160COMNTOOLS%\..\..\vc\Auxiliary\Build\vcvarsall AMD64
+    script:
+        - msbuild /m NX_SmartTools.sln /t:Clean,Restore,Build  /property:Configuration=Debug /p:Platform="Any CPU"
+    stage: build_debug
+    tags:
+        - vs2019-shell
+    artifacts:
+        paths:
+        - NX_SmartTools\bin\Debug\NX_SmartTools.vsix
+        name: NX_SmartTools_Debug
+        expire_in: 1 week
+build_release:
+    before_script:
+        - set "VSCMD_START_DIR=%CD%" 
+        - call %VS160COMNTOOLS%\..\..\vc\Auxiliary\Build\vcvarsall AMD64
+    script:
+        - msbuild /m  NX_SmartTools.sln /t:Clean,Restore,Build  /property:Configuration=Release /p:Platform="Any CPU"
+    stage: build_release
+    tags:
+        - vs2019-shell
+    artifacts:
+        paths:
+        - NX_SmartTools\bin\Release\NX_SmartTools.vsix
+        name: NX_SmartTools_Release
+        expire_in: 1 week
