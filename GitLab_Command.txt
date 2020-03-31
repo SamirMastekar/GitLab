@@ -1,0 +1,40 @@
+git --version               					-To get version
+git --help										-To get global help
+git help init									-To get particular point of help
+git config --global user.name "samirmastekar"   -Setting 
+git config --global user.email "samirmastekar"  -Setting 
+git config --global core editor"Notepad++"      -Setting 
+Notepad++ filename.txt							-To open the file
+git config --list								-To get all data set top git lab
+
+GitBasic Commands:
+mkdir shop										-To create the directory shop
+cd shop											-Change the directory
+git init										-Initilized the git 
+touch list.txt									-Create the file 
+rm list.txt										-Remove the file
+git status										-To get git status
+git add list.txt 								-To add file 
+git commit -m "Created shoping list"			-Commit the changes
+git log											-Tell us the history
+
+git diff										-Tell us the difference between original file and latests file
+git log -l										-Most recent commit\
+git diff --staged								-return changes
+git checkeout Head1 filename.txt				-It return file at particular version
+
+git reset filename.txt							-It reset the file to original 
+git reset HEAD~1 --soft							-Reset the file to commit
+git reset HEAD~1 --mixed						-Reset the file from commit and from added part of git
+git reset HEAD~1 --hard							-Reset everything og file
+
+Git Branching
+git branch dairy								-Created the "dairy" branch
+git branch 										-Tell us information about the branches
+git checkout dairy 								-It move from the Master brsnch to "dairy" brnach
+git merge dairy									-it merges to master branch\
+
+Git Remote
+git remote add origin url						-To make bond between the local and cloud
+git push origin master							-To push the code to the master branch
+git clone master url							-Pull the code from cloud to the origin
