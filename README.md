@@ -27,6 +27,7 @@
 - [Mock Interview](https://www.youtube.com/watch?v=VJpfO6KdyWE)
 - [Machine Coding Round Practice](https://workat.tech/practice)
 - [Soumyajit Bhattacharyay](https://www.youtube.com/watch?v=5VWycK8KmW0&list=PL12BCqE-Lp650Cg6FZW7SoZwN8Rw1WJI7)
+- [The Tech Granth](https://www.youtube.com/watch?v=zRz1GPSH50I&list=PLJN9ydlFnJsiEgyjO3D3yBhtiENymhF8G)
 
 ## Platforms to Practice: 
 - [Codeforces](http://codeforces.com/contests)
