@@ -26,6 +26,7 @@
 - [system-design-primer](https://github.com/donnemartin/system-design-primer)
 - [Mock Interview](https://www.youtube.com/watch?v=VJpfO6KdyWE)
 - [Machine Coding Round Practice](https://workat.tech/practice)
+- [Soumyajit Bhattacharyay](https://www.youtube.com/watch?v=5VWycK8KmW0&list=PL12BCqE-Lp650Cg6FZW7SoZwN8Rw1WJI7)
 
 ## Platforms to Practice: 
 - [Codeforces](http://codeforces.com/contests)
